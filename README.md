@@ -7,8 +7,10 @@ Microservicio construido siguiendo los lineamientos de arquitectura Hexagonal, e
 ## Getting started
 
 Levantar proyecto:
-1. yarn install
-2. yarn start:dev
+1. instalar dependencias:
+   yarn install
+2. Levantar proyecto:
+   yarn start:dev
 
 ## PostMan Collection
 usar postman con request que cuenta con los movimientos de cada pelea.
