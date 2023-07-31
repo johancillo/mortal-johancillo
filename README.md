@@ -9,7 +9,6 @@ Microservicio construido siguiendo los lineamientos de arquitectura Hexagonal, e
 Levantar proyecto:
 1. yarn install
 2. yarn start:dev
-3. 
 
 ## PostMan Collection
 usar postman con combinación de movimientos adjunto en el proyecto.
