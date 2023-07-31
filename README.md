@@ -11,4 +11,4 @@ Levantar proyecto:
 
 ## PostMan Collection
 Adjunto en el proyecto
-Name: mortal-kombat-talana.postman_collection.json
+Name: mortal-kombat.postman_collection.json
