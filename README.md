@@ -1,4 +1,4 @@
-# mortal-kombat-talana
+# mortal-kombat
 
 use node versión [v16.15.1]
 
