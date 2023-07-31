@@ -21,8 +21,9 @@ Name: mortal-kombat.postman_collection.json
 
 El request consta del JSON enviado en la prueba técnica, ejemplo:
 
-<p1> 
-{
+
+<pre>
+   {
     "player1": {
         "movimientos": [
             "DSD",
@@ -51,13 +52,16 @@ El request consta del JSON enviado en la prueba técnica, ejemplo:
             "K"
         ]
     }
-}</p1>
+}
+</pre>
+<p1> 
+</p1>
 
 ## Reponse
-La respuesta básicamente entregará un listado de movimientos, indicando qué player lo está ejecutando, qué ataque o movmiento está realizando y cuánto daño está haciendo al otro player, también se mostará un status del player atacado con cada ataque, esto hasta que uno de los jugadores pierda llegando su puntaje a 0. Luego, al final de la respuesta se podrá ver al ganador de la batalla.
+La respuesta básicamente entregará un listado de movimientos, indicando qué player lo está ejecutando, qué ataque o movmiento está realizando y cuánto daño está haciendo al otro player, también se mostará un status del player atacado con cada ataque, esto hasta que uno de los jugadores pierda llegando su puntaje a 0. Luego, al final de la respuesta se podrá ver al ganador de la batalla y todos su registro de movimientos.
 
 Ej
-
+<pre>
 {
     "playMadeByPlayer": [
         {
@@ -280,4 +284,5 @@ Ej
         "winner": false
     }
 }
+   </pre>
 
