@@ -2,6 +2,8 @@
 
 use node versión [v16.15.1]
 
+Microservicio construido siguiendo los lineamientos de arquitectura Hexagonal, está construido con el framework NestJs.
+
 ## Getting started
 
 Levantar proyecto:
