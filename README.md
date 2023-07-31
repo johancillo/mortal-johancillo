@@ -11,7 +11,7 @@ Levantar proyecto:
 2. yarn start:dev
 
 ## PostMan Collection
-usar postman con combinación de movimientos adjunto en el proyecto.
+usar postman con request que cuenta con los movimientos de cada pelea.
 Adjunto en el proyecto
 Name: mortal-kombat.postman_collection.json
 
