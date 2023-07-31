@@ -1,0 +1,13 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: ${CI_PROJECT_NAME}
+  namespace: ${NAMESPACE}
+  labels:
+    ApplicationName: ${KUBE_APPLICATION_NAME}
+data:
+  PGID: "1000"
+  PUID: "1000"
+  NEW_RELIC_APP_NAME: ${NEW_RELIC_APP_NAME}
+  NEW_RELIC_LICENSE_KEY: ${NEW_RELIC_LICENSE_KEY}
+  NEW_RELIC_LABELS: ${NEW_RELIC_LABELS}

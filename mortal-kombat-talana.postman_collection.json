@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "54ef669f-1198-4d58-85f5-6f170aeff89b",
+		"name": "mortal-kombat-talana",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "case 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"player1\": {\n        \"movimientos\": [\n            \"D\",\n            \"DSD\",\n            \"S\",\n            \"DSD\",\n            \"SD\"\n        ],\n        \"golpes\": [\n            \"K\",\n            \"P\",\n            \"\",\n            \"K\",\n            \"P\"\n        ]\n    },\n    \"player2\": {\n        \"movimientos\": [\n            \"SA\",\n            \"SA\",\n            \"SA\",\n            \"ASA\",\n            \"SA\"\n        ],\n        \"golpes\": [\n            \"K\",\n            \"\",\n            \"K\",\n            \"P\",\n            \"P\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/kombat/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"kombat",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"player1\": {\n        \"movimientos\": [\n            \"D\",\n            \"DSD\",\n            \"S\",\n            \"DSD\",\n            \"SD\"\n        ],\n        \"golpes\": [\n            \"K\",\n            \"P\",\n            \"\",\n            \"K\",\n            \"P\"\n        ]\n    },\n    \"player2\": {\n        \"movimientos\": [\n            \"SA\",\n            \"SA\",\n            \"SA\",\n            \"ASA\",\n            \"SA\"\n        ],\n        \"golpes\": [\n            \"K\",\n            \"\",\n            \"K\",\n            \"P\",\n            \"P\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/kombat/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"kombat",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"player1\": {\n        \"movimientos\": [\n            \"DSD\",\n            \"S\"\n        ],\n        \"golpes\": [\n            \"P\",\n            \"\"\n        ]\n    },\n    \"player2\": {\n        \"movimientos\": [\n            \"\",\n            \"ASA\",\n            \"DA\",\n            \"AAA\",\n            \"\",\n            \"SA\"\n        ],\n        \"golpes\": [\n            \"P\",\n            \"\",\n            \"P\",\n            \"K\",\n            \"K\",\n            \"K\"\n        ]\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/kombat/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"kombat",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
